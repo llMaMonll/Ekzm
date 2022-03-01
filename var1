@@ -3,9 +3,12 @@
 main()
 {
 int y, x;
-printf("Enter the number x");
+printf("Enter the number x\n");
 scanf("%d",&x);
 y=cos (x);
-printf("Result: %d",y );
+printf("Result: %d\n",y );
+
+y=y*2
+printf("Result: %d\n",y );
 getchar()
 }
