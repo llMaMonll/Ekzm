@@ -1,0 +1,11 @@
+#iclude<stdio.h>
+#include<math.h>
+main()
+{
+int y, x;
+printf("Enter the number x");
+scanf("%d",&x);
+y=cos (x);
+printf("Result: %d",y );
+getchar()
+}
